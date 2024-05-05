@@ -16,11 +16,23 @@ export const Rows = ({ id, age, name, activities, rating, handleDeleteMember, ha
       ))}
     </Cell>
     <Cell>
-      <Button variant="info" size="sm" onClick={() => handleEdit(id)}>Edit</Button>
+      <Button variant="info" size="sm" style={btnStyle} onClick={() => handleEdit(id)}>Edit</Button>
       <Button variant="danger" size="sm" onClick={() => handleDeleteMember(id)}>Delete</Button>
     </Cell>
   </tr>
 );
+
+const btnStyle = {
+  marginRight:"10px"
+}
+
+const headerStyle = {
+  fontFamily: 'arial',
+  paddingTop: '16px',
+  textTransform: 'uppercase',
+  fontWeight: '700',
+  color: 'gray'
+}
 
 const getData = async setMembers => {
   try {
@@ -229,7 +241,6 @@ export const SearchBar = ({ setSearchInput, setSearchRating, setActivityChange }
               </Col>
               <Col>
               <Select onChange={handleRatingChange} defaultValue="">
-                <option value="All">All</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -324,7 +335,7 @@ const MemberList = () => {
   return (
     <Block>
       <div className="header-block" style={{ position:'relative'}}>
-        <h1>My Club's Members</h1>
+        <h1 style ={headerStyle}>My Club's Members</h1>
         <Button variant="primary" onClick={handleShowModal} className="addMember" style ={{width:'200px', position:'absolute', right:'0',top:'15px'}}>Add Club Member</Button>
       </div>
       <ModalPopup show={showModal} handleClose={handleCloseModal} handleAddMember={handleAddMember} />
