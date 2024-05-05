@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "name": "Miko",
+    "age": 20,
+    "activities": ["Biking", "Running", "Biking"],
+    "memberRating": 2
+  },
+  {
+    "id": "2",
+    "name": "Jesse",
+    "age": 33,
+    "activities": ["Running", "Running", "Hiking"],
+    "memberRating": 3
+  },
+  {
+    "id": "3",
+    "name": "Joanna",
+    "age": 67,
+    "activities": ["Hiking", "Hiking", "Biking"],
+    "memberRating": 5
+  },
+  {
+    "id": "4",
+    "name": "Alex",
+    "age": 18,
+    "activities": ["Hiking", "Running", "Biking"],
+    "memberRating": 1
+  },
+  {
+    "id": "5",
+    "name": "Merissa",
+    "age": 22,
+    "activities": ["Running", "Running", "Biking"],
+    "memberRating": 2
+  },
+  {
+    "id": "6",
+    "name": "Hassan",
+    "age": 25,
+    "activities": ["Hiking", "Running", "Running"],
+    "memberRating": 4
+  },
+  {
+    "id": "7",
+    "name": "Hannah",
+    "age": 19,
+    "activities": ["Biking", "Biking", "Hiking"],
+    "memberRating": 2
+  },
+  {
+    "id": "8",
+    "name": "Tina",
+    "age": 38,
+    "activities": ["Hiking", "Hiking", "Hiking"],
+    "memberRating": 1
+  },
+  {
+    "id": "9",
+    "name": "Mike",
+    "age": 34,
+    "activities": ["Running", "Running", "Biking"],
+    "memberRating": 3
+  },
+  {
+    "id": "10",
+    "name": "Irwin",
+    "age": 101,
+    "activities": ["Biking", "Running", "Biking"],
+    "memberRating": 4
+  }
+]
