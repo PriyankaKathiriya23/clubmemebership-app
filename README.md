@@ -1,5 +1,11 @@
-Sorting functionality:
-By clicking on Name and activity it will sort ascending and descending form
+In this app working on showing the data of the members, their are of interest, joining date.
+It has functionality like:
+1. add new member
+2. delete member
+3. find member
+4. sorting member (ascending and decending form)
 
-Edit functionality:
-By clicking on Edit button it will allow edit name 
+Tech stack:
+React
+Javascript
+Bootstrap
